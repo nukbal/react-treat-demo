@@ -2,6 +2,7 @@
   "name": "react-treat-demo",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://nukbal.github.io/react-treat-demo",
   "dependencies": {
     "react": "^16.8.6",
     "react-app-polyfill": "^1.0.1",

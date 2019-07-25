@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.1e12239b.chunk.js",
-    "main.js.map": "/static/js/main.1e12239b.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.b6c1d3f3.js",
-    "runtime~main.js.map": "/static/js/runtime~main.b6c1d3f3.js.map",
-    "static/js/2.384715a4.chunk.js": "/static/js/2.384715a4.chunk.js",
-    "static/js/2.384715a4.chunk.js.map": "/static/js/2.384715a4.chunk.js.map",
-    "static/js/3.d2645964.chunk.js": "/static/js/3.d2645964.chunk.js",
-    "static/js/3.d2645964.chunk.js.map": "/static/js/3.d2645964.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0aafc7af5ec7bd78e0f4e1f7bb1b3c6c.js": "/precache-manifest.0aafc7af5ec7bd78e0f4e1f7bb1b3c6c.js",
-    "service-worker.js": "/service-worker.js"
+    "main.js": "/react-treat-demo/static/js/main.1e12239b.chunk.js",
+    "main.js.map": "/react-treat-demo/static/js/main.1e12239b.chunk.js.map",
+    "runtime~main.js": "/react-treat-demo/static/js/runtime~main.d26db027.js",
+    "runtime~main.js.map": "/react-treat-demo/static/js/runtime~main.d26db027.js.map",
+    "static/js/2.384715a4.chunk.js": "/react-treat-demo/static/js/2.384715a4.chunk.js",
+    "static/js/2.384715a4.chunk.js.map": "/react-treat-demo/static/js/2.384715a4.chunk.js.map",
+    "static/js/3.d2645964.chunk.js": "/react-treat-demo/static/js/3.d2645964.chunk.js",
+    "static/js/3.d2645964.chunk.js.map": "/react-treat-demo/static/js/3.d2645964.chunk.js.map",
+    "index.html": "/react-treat-demo/index.html",
+    "precache-manifest.3d4880b72fa04b1d906ddc1365db8919.js": "/react-treat-demo/precache-manifest.3d4880b72fa04b1d906ddc1365db8919.js",
+    "service-worker.js": "/react-treat-demo/service-worker.js"
   }
 }
