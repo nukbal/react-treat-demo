@@ -21,6 +21,7 @@ const getClientEnvironment = require('./env');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 const ForkTsCheckerWebpackPlugin = require('react-dev-utils/ForkTsCheckerWebpackPlugin');
 const typescriptFormatter = require('react-dev-utils/typescriptFormatter');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TreatPlugin = require('treat/webpack-plugin');
 
 // Source maps are resource heavy and can cause out of memory issue for large source files.
@@ -383,6 +384,20 @@ module.exports = function(webpackEnv) {
       new webpack.DefinePlugin(env.stringified),
       
       new TreatPlugin(),
+      // new TreatPlugin({
+      //   outputLoaders: [MiniCssExtractPlugin.loader]
+      // }),
+      // new MiniCssExtractPlugin(),
+      // new TreatPlugin({
+      //   outputCSS: !isEnvProduction,
+      //   outputLoaders: isEnvProduction ? [MiniCssExtractPlugin.loader] : undefined,
+      // }),
+      // isEnvProduction && new MiniCssExtractPlugin({
+      //   // Options similar to the same options in webpackOptions.output
+      //   // both options are optional
+      //   filename: 'static/css/[name].[contenthash:8].css',
+      //   chunkFilename: 'static/css/[name].[contenthash:8].chunk.css',
+      // }),
 
       // Watcher doesn't work well if you mistype casing in a path so we use
       // a plugin that prints an error when you attempt to do this.
